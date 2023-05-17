@@ -3,6 +3,8 @@ from src.entities.Packet import DataPacket, ACKPacket
 from src.routing_protocol.GPSR.gpsr_packet import GpsrHelloPacket
 from src.entities.UAV import Drones
 from utils import config
+import numpy
+import copy
 
 gl_id_hello_packet = 0
 gl_id_ack_packet = 0
